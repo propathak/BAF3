@@ -6,8 +6,7 @@ export default function Dashboard() {
     <div className="py-10 grid gap-6 md:grid-cols-3">
       <Card className="p-6 md:col-span-2">
         <div className="text-sub">Today</div>
-        <h3 className="text-2xl font-semibold mt-1">Tiny step &gt; perfect plan
-</h3>
+        <h3 className="text-2xl font-semibold mt-1">Tiny step &gt; perfect plan</h3>
         <p className="mt-2 text-sub">Pick one thing you can finish in 20 minutes. Start now, adjust later.</p>
         <div className="mt-4"><Button variant="secondary">Get a focused nudge</Button></div>
       </Card>
