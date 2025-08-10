@@ -1,3 +1,4 @@
+<h3 className="text-2xl font-semibold mt-1">Tiny step {'>'} perfect plan</h3>
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 
