@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 24px;
+}
+
+html, body, #__next { height: 100%; }
+body { background: #0B0B0F; color: #F5F5F7; }
+
+/* Glow helpers */
+.glow-neon { box-shadow: 0 0 0 2px rgba(255,210,63,0.25); }
+.text-gradient { 
+  background: linear-gradient(90deg, #FFD23F, #A78BFA, #FF4D8D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
